@@ -65,6 +65,13 @@ body{
     text-decoration: underline;
 }
 
+#nutan
+{
+    font-size: 30px;
+    text-align: right;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
 
 
 ul{
