@@ -1,3 +1,8 @@
+*{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
 body{
     text-align: justify;
     font-size: 20px;
@@ -7,6 +12,9 @@ body{
 
 #title
 {
+   
+    padding-top: 40px;
+    padding-bottom: 3px;
     text-align: center;
     text-align: justify;
     align-items: center;
@@ -47,4 +55,23 @@ body{
     text-shadow: 0cap;
     font-size: 20px;
 }
+
+#list1
+{
+    padding-left: 20px;
+    margin-left: 20px;
+    align-items: center;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+
+
+ul{
+    text-align: inline;
+    padding: 0;
+    color: blueviolet;
+
+}
+
 
