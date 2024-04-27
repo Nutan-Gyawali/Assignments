@@ -1,0 +1,50 @@
+body{
+    text-align: justify;
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: 100;
+}
+
+#title
+{
+    text-align: center;
+    text-align: justify;
+    align-items: center;
+    color: darkblue;
+    text-decoration-line: underline;
+}
+
+#div
+{
+    color: rgb(128, 96, 157);
+}
+
+#code
+{
+    color: rgb(13, 76, 177);
+}
+
+#emp
+{
+    color: rgb(109, 63, 152);
+}
+
+#str
+{
+    color: rgb(82, 82, 230);
+}
+
+#list
+{
+    color: rgb(27, 119, 156);
+}
+
+.para
+{
+    color: rgb(165, 101, 224);
+    text-align: justify;
+    font-weight: 100;
+    text-shadow: 0cap;
+    font-size: 20px;
+}
+
