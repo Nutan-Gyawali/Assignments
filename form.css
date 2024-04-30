@@ -1,13 +1,22 @@
 body{
     background-color: bisque;
 }
+
+
+#titles
+{
+    margin-left: 250px;
+   
+}
 .formElement{
     margin: 8px 0;
     margin-top: 20px;
-    margin-bottom: 5px;
-    padding: 5px;
-    display: inline-block;
+    margin-bottom: 10px;
+    padding: 3px;
+   
 }
+
+
 
 form{
 
@@ -16,7 +25,7 @@ form{
     border-radius: 15px;
     margin-right: 180px;
     border: 2px solid blue;
-    background-color: rgb(119, 210, 226);
+    background-color:rgb(242, 217, 185);
 }
 
 label{
@@ -30,9 +39,11 @@ label{
 #submit{
     background-color: aquamarine;
     float: right;
-    border-radius: 11px;
-    margin-right: 200px;
-    padding: 5px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-right: 210px;
+    margin-top: 0px;
+    padding: 7px;
 }
 
 #submit:hover{
