@@ -18,6 +18,12 @@
     align-items: center;
     justify-content: space-between;
     background-color: beige;
+    position: sticky;
+    border: 1px solid #ccc;
+    position: fixed;
+    width:1450px;
+    top: 0;
+    margin-left: 0px;
     
 }
 
@@ -40,7 +46,18 @@ li a{
     padding-right: 20px;
 }
 
-#about, #portfolio, #Education, #contact
+#about
+{
+    margin-top: 150px;
+    justify-content: left;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+ #portfolio, #Education, #contact
 {
     margin-top: 50px;
     justify-content: left;
@@ -84,10 +101,7 @@ li a{
     margin-top: 20px;
 }
 
-.para
-{
-    
-}
+
 
 footer
 {
