@@ -4,6 +4,7 @@ function calculate (operator)
     console.log(n1);
     const n2 = parseFloat(document.getElementById("num2").value);
     console.log(n2);
+
     let result;
     
     switch(operator)

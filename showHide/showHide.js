@@ -9,6 +9,7 @@ function hide()
 
     if(inn == "Hide It")
     button.innerHTML = 'Show it';
+   
     
     else
     button.innerHTML = 'Hide It';
