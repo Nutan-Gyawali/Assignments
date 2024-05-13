@@ -1,18 +1,24 @@
 function hide()
 {
+   var box =document.getElementById("box");
    var button = document.getElementById("hide");
-   console.log(button);
+   
+    
 
-
-    console.log(button.innerHTML);
-    var inn = button.innerHTML;
-
-    if(inn == "Hide It")
-    button.innerHTML = 'Show it';
+    if(box.style.display==="none")
+      {
+         document.getElementById("box").style.display="block";
+         button.innerText="hide it"
+      }
+   
    
     
     else
-    button.innerHTML = 'Hide It';
+    {
+      document.getElementById("box").style.display="none";
+      button.innerText="show it"
+    }
+    
    
 
    console.log(button);
