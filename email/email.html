@@ -5,14 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Validation</title>
+    <style>
+        #Enter {
+            text-decoration: underline double;
+            color: brown;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: blueviolet;
+        }
+
+        #email {
+            width: 400px;
+            height: 30px;
+        }
+
+        #Submit {
+            height: 35px;
+            width: 60px;
+            color: rgb(3, 29, 73);
+            background-color: aqua;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Email Validation</h1>
+    <h1 id="head">Email Validation</h1>
     <div id="write">
-        <h3 id="Enter">Check your email</h3>
+        <p id="Enter">Check Your Email</p>
         <input type="text" id="email" label="email" placeholder="Enter your email">
-        <button onclick="validateEmail()">Submit</button>
+        <button id="Submit" onclick="validateEmail()">Submit</button>
+
     </div>
 
 </body>
