@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #follower {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            border-radius: 10%;
+            pointer-events: none;
+            /* Prevent the div from blocking mouse events */
+            transform: translate(-50%, -50%);
+            /* Center the div on the cursor */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="follower"></div>
+
+    <script>
+        const follower = document.getElementById('follower');
+
+        // Listen for mousemove event
+        document.addEventListener('mousemove', (e) => {
+            const x = e.clientX;
+            const y = e.clientY;
+
+            // Set the position of the follower div with a small offset
+            follower.style.left = x + 'px';
+            follower.style.top = y + 'px';
+        });
+    </script>
+</body>
+
+</html>
