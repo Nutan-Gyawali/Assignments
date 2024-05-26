@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        #box1,
+        #box2,
+        #box3 {
+            color: red;
+            background-color: aqua;
+            width: 200px;
+            height: 500px;
+            display: block;
+        }
+
+        #box1 {
+            position: sticky;
+            top: 0;
+        }
+
+        #box2 {
+            position: absolute;
+
+            top: 80px;
+            right: 0;
+        }
+
+        #box3 {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box1">
+        <h1>This is box 1.</h1>
+    </div>
+    <div id="box2">
+        <h1>This is box 2.</h1>
+    </div>
+    <div id="box3">
+        <h1>This is box 3.</h1>
+    </div>
+</body>
+
+</html>
