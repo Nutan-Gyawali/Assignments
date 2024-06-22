@@ -14,5 +14,9 @@ function search() {
 
 
 
+<<<<<<< divMouse
+}
+=======
 }
 
+>>>>>>> main
